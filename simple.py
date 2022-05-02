@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2022/05/02 22:19:58 (CST) daisuke>
+# Time-stamp: <2022/05/02 23:08:49 (CST) daisuke>
 #
 
 # importing numpy module
@@ -59,6 +59,7 @@ ax.set_ylabel (r'$y$')
 # plotting data
 ax.plot (list_x, list_y, 'b-', label='numerical solution', linewidth=5)
 ax.plot (ana_x, ana_y, 'r--', label='analytical solution', linewidth=2)
+ax.legend ()
 
 # writing figure to file
 fig.savefig ('simple.png', dpi=225)
