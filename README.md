@@ -56,6 +56,10 @@ Play the file "planet.mp4"
 ```
 % mplayer planet.mp4
 ```
+If you would like to add an audio track to your video file, then try following
+```
+% ffmpeg -i planet.mp4 -i audiofile.f251.webm -c:v copy planet_with_audio.mp4
+```
 
 ## usage of laneemden.py and plot_polytrope.py
 The script "laneemden.py" is for solving Lane-Emden equation, and the script "plot_polytrope.py" is for plotting results.
