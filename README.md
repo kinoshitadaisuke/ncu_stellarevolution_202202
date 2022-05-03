@@ -4,6 +4,14 @@ material for the course "Stellar Formation and Evolution" at NCU at the 2nd seme
 For the session on 03/May/2022, we need Python, Numpy, Scipy, and Matplotlib.
 If you do not have these software installed on your computer, try to install them.
 
+Things you need for this hands-on session:
+- a computer
+- Python
+- Numpy, Scipy, and Matplotlib
+- your favourite web browser to access to https://github.com/
+- your favourite text editor to modify codes
+- your favourite terminal emulator to execute Python scripts
+
 ## usage of simple.py
 The script "simple.py" is for solving the equation dy/dx=-ky.
 Try following.
